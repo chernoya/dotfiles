@@ -6,17 +6,6 @@ super + Return
 super + d
 	rofi -show run
 
-#spotify commands
-alt + shift + b
-	playerctl previous -p spotify
-
-alt + shift + n 
-	playerctl play-pause -p spotify
-
-alt + shift + m
-	playerctl next -p spotify
-
-
 #Reload sxhkd
 super + Escape
 	pkill -USR1 -x sxhkd

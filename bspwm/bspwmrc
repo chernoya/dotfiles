@@ -2,8 +2,7 @@
 
 sxhkd &
 bspc monitor -d I II III IV &
-picom &
-feh --bg-scale ~/Downloads/701802.jpg &
+feh --bg-scale ~/.config/wallpaper.png &
 ~/.config/polybar/launch.sh 
 
 bspc config border_width         2
